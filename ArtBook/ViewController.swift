@@ -14,6 +14,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        
+        
+        navigationController?.navigationBar.topItem?.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(addButtonClicked))
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -23,7 +26,16 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         return UITableViewCell()
     }
     
+    @objc func addButtonClicked(){
+        performSegue(withIdentifier: "toSecondVC", sender: nil)
+    }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toSecondVC"{
+            let destination = segue.destination as! SecondViewController
+            
+        }
+    }
 }
 
 
