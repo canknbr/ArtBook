@@ -14,6 +14,7 @@
 		364DCA8329D61DB300469E64 /* ArtBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 364DCA8129D61DB300469E64 /* ArtBook.xcdatamodeld */; };
 		364DCA8529D61DB500469E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364DCA8429D61DB500469E64 /* Assets.xcassets */; };
 		364DCA8829D61DB500469E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364DCA8629D61DB500469E64 /* LaunchScreen.storyboard */; };
+		364DCA9029D624FB00469E64 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364DCA8F29D624FB00469E64 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		364DCA8429D61DB500469E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		364DCA8729D61DB500469E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		364DCA8929D61DB500469E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364DCA8F29D624FB00469E64 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				364DCA7A29D61DB300469E64 /* SceneDelegate.swift */,
 				364DCA7C29D61DB300469E64 /* ViewController.swift */,
 				364DCA7E29D61DB300469E64 /* Main.storyboard */,
+				364DCA8F29D624FB00469E64 /* SecondViewController.swift */,
 				364DCA8429D61DB500469E64 /* Assets.xcassets */,
 				364DCA8629D61DB500469E64 /* LaunchScreen.storyboard */,
 				364DCA8929D61DB500469E64 /* Info.plist */,
@@ -144,6 +147,7 @@
 				364DCA7D29D61DB300469E64 /* ViewController.swift in Sources */,
 				364DCA7929D61DB300469E64 /* AppDelegate.swift in Sources */,
 				364DCA8329D61DB300469E64 /* ArtBook.xcdatamodeld in Sources */,
+				364DCA9029D624FB00469E64 /* SecondViewController.swift in Sources */,
 				364DCA7B29D61DB300469E64 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
