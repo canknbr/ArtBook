@@ -131,6 +131,7 @@
                         <outlet property="artistTextField" destination="B2J-Bn-rtj" id="DSf-Q0-P33"/>
                         <outlet property="imageView" destination="oG9-GI-K7a" id="Ogn-oA-2Ft"/>
                         <outlet property="nameTextField" destination="ctc-Ri-Uzp" id="GA6-ka-3ff"/>
+                        <outlet property="saveButton" destination="khi-zh-PNK" id="ipX-Q0-t2d"/>
                         <outlet property="yearTextField" destination="AAi-tn-T8M" id="CcS-T9-exb"/>
                     </connections>
                 </viewController>
